@@ -1,8 +1,8 @@
-# Synchronized Multirole Orienteering
-Problems, solutions, and algorithms for the Synchronized Multi-role Orienteering Problem. 
+# Synchronized Multi-Assignment Orienteering
+Problems, solutions, and algorithms for the Synchronized Multi-Assignment Orienteering Problem. 
 
 This repository contains source code, benchmark problem sets, and solutions for research on the Synchronized 
-Multi-role Orienteering Problem. This repository is organized as follows:
+Multi-Assignment Orienteering Problem. This repository is organized as follows:
 
 1. Core Source Code
 

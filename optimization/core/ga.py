@@ -2,7 +2,7 @@
 # Author: cgarcia@umw.edu
 # Created: 9/11/2020
 # About: This file contains the main genetic algorithm implementations and requisite structures 
-#        for solving the Synchronized Multi-role Orienteering problem.
+#        for solving the Synchronized Multi-Assignment Orienteering problem.
 #
 # Revision History:
 # Date        Author            Change Description

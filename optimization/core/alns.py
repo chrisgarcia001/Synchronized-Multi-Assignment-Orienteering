@@ -2,7 +2,7 @@
 # Author: cgarcia@umw.edu
 # Created: 9/12/2020
 # About: This file contains the main ALNS implementations and requisite structures for solving 
-#        the Synchronized Multi-role Orienteering problem. The main algorithm is problem-
+#        the Synchronized Multi-Assignment Orienteering problem. The main algorithm is problem-
 #        agnostic and can be used across many contexts.
 #
 # Revision History:
