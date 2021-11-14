@@ -1,0 +1,20 @@
+************************
+* COPTW test instances *
+************************
+The lines contain the data of each point. 
+For each point, the line contains the following data:
+
+	i x y d S O C R
+
+Where
+	i = vertex number
+	x = x coordinate
+	y = y coordinate
+	d = service duration or visiting time
+	S = profit of the location
+    O = opening of time window (earliest time for start of service)
+	C = closing of time window (latest time for start of service)
+    R = Resource requirements (number of vehicles required to collect the profit)
+* REMARKS *
+	- The first point (index 0) is the depot.
+	- The Euclidean distance is used and rounded down to the first decimal.

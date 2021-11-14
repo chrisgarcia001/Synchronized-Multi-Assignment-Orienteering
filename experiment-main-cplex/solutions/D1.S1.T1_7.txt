@@ -1,0 +1,59 @@
+
+<<< setup
+
+
+<<< generate
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_TimeLimit                               1200
+Tried aggregator 2 times.
+MIP Presolve eliminated 40775 rows and 23471 columns.
+MIP Presolve modified 3234 coefficients.
+Aggregator did 38 substitutions.
+Reduced MIP has 997 rows, 1001 columns, and 5417 nonzeros.
+Reduced MIP has 991 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (31.61 ticks)
+Found incumbent of value 11800.000000 after 0.05 sec. (39.94 ticks)
+Probing fixed 64 vars, tightened 0 bounds.
+Probing time = 0.02 sec. (22.83 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 64 rows and 64 columns.
+Reduced MIP has 933 rows, 937 columns, and 4983 nonzeros.
+Reduced MIP has 927 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (4.06 ticks)
+Probing time = 0.02 sec. (3.34 ticks)
+Clique table members: 3102.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (5.10 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        11800.0000    32392.0000           174.51%
+      0     0    19734.0000   151    11800.0000    19734.0000      242   67.24%
+*     0+    0                        19734.0000    19734.0000             0.00%
+      0     0        cutoff          19734.0000    19734.0000      242    0.00%
+Elapsed time = 0.17 sec. (140.88 ticks, tree = 0.01 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.17 sec. (141.72 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.17 sec. (141.72 ticks)
+
+<<< solve
+
+
+OBJECTIVE: 19734
+
+<<< post process
+
+
+<<< done
+

@@ -1,0 +1,17 @@
+Param Combination,wins(d2_s2_t1),avg_pbest(d2_s2_t1),avg_time(d2_s2_t1),wins(d2_s2_t2),avg_pbest(d2_s2_t2),avg_time(d2_s2_t2),wins(d2_s3_t1),avg_pbest(d2_s3_t1),avg_time(d2_s3_t1),wins(d2_s3_t2),avg_pbest(d2_s3_t2),avg_time(d2_s3_t2),wins(d3_s3_t2),avg_pbest(d3_s3_t2),avg_time(d3_s3_t2),wins(roozbeh),avg_pbest(roozbeh),avg_time(roozbeh)
+accept_method:0_reaction_factor:0_weight_deltas:0,10,1.0,6.76,2,0.953,69.467,10,1.0,11.579,0,0.97,107.832,1,0.945,99.275,1,0.953,51.747
+accept_method:0_reaction_factor:1_weight_deltas:0,10,1.0,6.542,1,0.953,70.95,10,1.0,11.672,4,0.98,76.4,1,0.946,103.103,2,0.956,53.587
+accept_method:1_reaction_factor:0_weight_deltas:0,10,1.0,6.611,0,0.952,67.59,10,1.0,11.468,0,0.963,82.113,1,0.952,103.229,0,0.954,48.556
+accept_method:1_reaction_factor:1_weight_deltas:0,10,1.0,6.542,1,0.944,68.472,10,1.0,11.458,0,0.969,95.864,3,0.956,110.478,1,0.962,52.167
+accept_method:2_reaction_factor:0_weight_deltas:0,10,1.0,6.472,1,0.953,69.291,10,1.0,11.464,1,0.966,98.767,1,0.956,79.419,0,0.939,50.422
+accept_method:2_reaction_factor:1_weight_deltas:0,10,1.0,6.528,2,0.948,70.251,10,1.0,11.486,0,0.982,96.921,0,0.954,88.604,0,0.954,57.165
+accept_method:3_reaction_factor:0_weight_deltas:0,10,1.0,6.5,1,0.944,70.541,10,1.0,11.475,1,0.966,106.822,1,0.952,90.105,0,0.946,53.061
+accept_method:3_reaction_factor:1_weight_deltas:0,10,1.0,6.55,0,0.952,70.823,10,1.0,11.489,0,0.978,95.262,1,0.942,78.729,1,0.952,50.155
+accept_method:0_reaction_factor:0_weight_deltas:1,10,1.0,6.514,0,0.955,69.711,10,1.0,11.457,0,0.96,86.392,1,0.941,88.833,0,0.959,57.419
+accept_method:0_reaction_factor:1_weight_deltas:1,10,1.0,6.591,0,0.949,71.249,10,1.0,11.452,1,0.971,89.871,0,0.951,81.593,4,0.968,51.583
+accept_method:1_reaction_factor:0_weight_deltas:1,10,1.0,6.542,0,0.951,69.138,10,1.0,11.474,0,0.97,86.74,2,0.948,88.549,3,0.964,53.664
+accept_method:1_reaction_factor:1_weight_deltas:1,10,1.0,6.511,0,0.944,70.768,10,1.0,11.486,1,0.968,93.999,0,0.951,97.958,0,0.947,54.013
+accept_method:2_reaction_factor:0_weight_deltas:1,10,1.0,6.553,2,0.956,71.262,10,1.0,11.454,2,0.967,103.954,0,0.939,98.481,2,0.952,54.858
+accept_method:2_reaction_factor:1_weight_deltas:1,10,1.0,6.511,0,0.94,69.857,10,1.0,11.499,0,0.971,107.22,0,0.948,111.129,2,0.951,49.973
+accept_method:3_reaction_factor:0_weight_deltas:1,10,1.0,6.494,0,0.942,67.767,10,1.0,11.465,0,0.972,100.057,0,0.949,98.257,0,0.957,60.709
+accept_method:3_reaction_factor:1_weight_deltas:1,10,1.0,6.588,0,0.951,68.522,10,1.0,11.452,0,0.972,95.309,1,0.947,108.852,0,0.941,50.982

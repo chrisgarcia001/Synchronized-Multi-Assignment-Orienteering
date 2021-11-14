@@ -1,0 +1,94 @@
+
+<<< setup
+
+
+<<< generate
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_TimeLimit                               1200
+Tried aggregator 2 times.
+MIP Presolve eliminated 41261 rows and 24037 columns.
+MIP Presolve modified 3646 coefficients.
+Aggregator did 43 substitutions.
+Reduced MIP has 826 rows, 730 columns, and 4025 nonzeros.
+Reduced MIP has 720 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (30.07 ticks)
+Found incumbent of value 0.000000 after 0.06 sec. (40.23 ticks)
+Probing fixed 125 vars, tightened 0 bounds.
+Probing changed sense of 4 constraints.
+Probing time = 0.02 sec. (5.14 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 139 rows and 131 columns.
+Reduced MIP has 687 rows, 599 columns, and 3276 nonzeros.
+Reduced MIP has 589 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.89 ticks)
+Probing fixed 12 vars, tightened 0 bounds.
+Probing time = 0.01 sec. (3.71 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 15 rows and 15 columns.
+Reduced MIP has 672 rows, 584 columns, and 3190 nonzeros.
+Reduced MIP has 574 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.19 ticks)
+Probing fixed 1 vars, tightened 0 bounds.
+Probing time = 0.02 sec. (3.54 ticks)
+Clique table members: 1895.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (3.79 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000    25393.0000              --- 
+      0     0    25393.0000   158        0.0000    25393.0000      254     --- 
+      0     0    25393.0000   158        0.0000      Cuts: 28      299     --- 
+      0     0    25393.0000   158        0.0000     Cuts: 135      367     --- 
+      0     0    25393.0000   158        0.0000      Cuts: 19      430     --- 
+      0     0    25393.0000   158        0.0000     Cuts: 121      555     --- 
+Detecting symmetries...
+      0     2    25393.0000    85        0.0000    25393.0000      555     --- 
+Elapsed time = 0.36 sec. (202.19 ticks, tree = 0.02 MB, solutions = 1)
+*   268    96      integral     0     5178.0000    25393.0000    12293  390.40%
+*   269   114      integral     0     5598.0000    25393.0000    13112  353.61%
+*   362   149      integral     0    11863.0000    25393.0000    16089  114.05%
+    366   185    24983.0000   104    11863.0000    25393.0000    16800  114.05%
+    664   245    infeasible          11863.0000    25393.0000    39879  114.05%
+    963   325    25393.0000    88    11863.0000    25393.0000    54574  114.05%
+   1203   311    23102.0000   104    11863.0000    25393.0000    69709  114.05%
+   1494   361    infeasible          11863.0000    25393.0000    84154  114.05%
+   1630   288    infeasible          11863.0000    25393.0000   101138  114.05%
+   1782   193    infeasible          11863.0000    25393.0000   122333  114.05%
+   1986   258    25393.0000   103    11863.0000    25393.0000   137192  114.05%
+   2180   262    25393.0000   119    11863.0000    25393.0000   150306  114.05%
+   3139   227    24287.3919    82    11863.0000    25393.0000   207956  114.05%
+Elapsed time = 5.89 sec. (3316.53 ticks, tree = 0.42 MB, solutions = 5)
+   4321    14    12187.0993    29    11863.0000    20601.0000   271226   73.66%
+
+Clique cuts applied:  8
+Cover cuts applied:  8
+Implied bound cuts applied:  602
+Flow cuts applied:  5
+Mixed integer rounding cuts applied:  3
+Zero-half cuts applied:  4
+
+Root node processing (before b&c):
+  Real time             =    0.37 sec. (203.03 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    7.16 sec. (4101.74 ticks)
+  Sync time (average)   =    0.98 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    7.53 sec. (4304.77 ticks)
+
+<<< solve
+
+
+OBJECTIVE: 11863
+
+<<< post process
+
+
+<<< done
+

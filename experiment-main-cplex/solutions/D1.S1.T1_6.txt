@@ -1,0 +1,56 @@
+
+<<< setup
+
+
+<<< generate
+
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
+CPXPARAM_TimeLimit                               1200
+Tried aggregator 2 times.
+MIP Presolve eliminated 40574 rows and 23216 columns.
+MIP Presolve modified 3144 coefficients.
+Aggregator did 60 substitutions.
+Reduced MIP has 1176 rows, 1234 columns, and 6611 nonzeros.
+Reduced MIP has 1224 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (32.29 ticks)
+Found incumbent of value 17744.000000 after 0.05 sec. (41.36 ticks)
+Probing fixed 61 vars, tightened 0 bounds.
+Probing time = 0.05 sec. (32.42 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 61 rows and 61 columns.
+Reduced MIP has 1115 rows, 1173 columns, and 6209 nonzeros.
+Reduced MIP has 1163 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (4.78 ticks)
+Probing time = 0.00 sec. (3.43 ticks)
+Clique table members: 3913.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (1.82 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        17744.0000    27720.0000            56.22%
+      0     0        cutoff          17744.0000                     27     --- 
+
+Root node processing (before b&c):
+  Real time             =    0.13 sec. (94.18 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.13 sec. (94.18 ticks)
+
+<<< solve
+
+
+OBJECTIVE: 17744
+
+<<< post process
+
+
+<<< done
+
