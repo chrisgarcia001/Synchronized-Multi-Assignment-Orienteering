@@ -22,3 +22,7 @@ The different computational experiment results and main scripts are found in the
 4. Algorithm Tuning
 
 The algorithm tuning code used to determine the main paramter values is found in the folder *tuning-factorial*.
+
+### Paper and Citation
+
+The full paper can be found [here](https://www.aimsciences.org/article/doi/10.3934/jimo.2022018). If you wish to cite this work, please use the following reference: Garcia, C. (2023), "The synchronized multi-assignment orienteering problem, *Journal of Industrial and Management Optimization", 19(3):1790-1812.
