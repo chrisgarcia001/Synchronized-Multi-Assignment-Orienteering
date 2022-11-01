@@ -1,8 +1,8 @@
 # Synchronized Multi-Assignment Orienteering
 Problems, solutions, and algorithms for the Synchronized Multi-Assignment Orienteering Problem. 
 
-This repository contains source code, benchmark problem sets, and solutions for research on the Synchronized 
-Multi-Assignment Orienteering Problem. This repository is organized as follows:
+This repository contains source code, benchmark problem sets, and solutions from my research paper on the [Synchronized 
+Multi-Assignment Orienteering Problem](https://www.aimsciences.org/article/doi/10.3934/jimo.2022018). This repository is organized as follows:
 
 1. Core Source Code
 
